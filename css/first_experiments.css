@@ -1,0 +1,39 @@
+p {
+    color:blueviolet;
+    font-style: oblique;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#Skip{
+    padding: 5px;
+    margin-right: 430px;
+    background-color: rgb(252, 242, 109);
+}
+
+/* das ist für die Tabelle */
+table, tr, td{
+    border: 2px solid black;
+    /* das wenn man nicht diese Doppeltrennung haben will
+    border-collapse: collapse; */
+    padding: 5px;
+}
+
+#Viereck1{
+    width: 100px;
+}
+.header{
+    color: rgb(52, 41, 62);
+}
+#KeinKreis{
+    width: 20vh;
+}
+
+@media only screen and (max-width=400px){
+    #KeinKreis{
+        width: 20px;
+    }
+}
+
