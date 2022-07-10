@@ -33,6 +33,8 @@ table, tr, td{
     }
 }
 #disclaimer {
+    margin-top: 10px;
+    position: sticky;
     float: right;
     width: 20rem;
     background-color: white;

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Sans+JP:wght@300&display=swap');
+
+
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px rgb(69, 126, 205); 
+}
+
+#release{
+    font-size: 75px;
+    position: absolute;
+    top: 30%;
+    left: 16%;;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-shadow: 4px 4px 9px rgb(226, 65, 16);
+}
+
+
+#astronaut{
+    position: absolute;
+    top: 1px;
+    background-image: url(../pictures/lost_blackhole.png);
+    overflow:hidden;
+}
+
+
+body{
+    background-image: url(../pictures/lost_background.jpeg);
+    background-size: 10em;
+}
+
+a{
+    color: black;
+}
