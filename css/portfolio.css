@@ -10,10 +10,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
     background-color: antiquewhite;
-    border: 2px solid rgba(219, 146, 51, 0.003);
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgb(160, 109, 42);
-    padding: 10px;
+    margin: 0 10px;
 }
 body:after {
     content: "";
@@ -125,4 +122,12 @@ header{
 }
 dt{
    font-weight: bold;
+}
+nav {
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    border: 2px solid rgba(219, 146, 51, 0.003);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(160, 109, 42);
 }
