@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    background-color: antiquewhite;
+    margin: 0 10px;
+}
+nav {
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    border: 2px solid rgba(219, 146, 51, 0.003);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(160, 109, 42);
+}
+a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+nav ul li{
+    /* width: fit-content; */
+    flex-basis: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    list-style-type: none;
+    background-color: rgb(183, 249, 227);
+    box-shadow: 10px 10px 1px blueviolet;
+    border: 2px 2px solid rgb(143, 17, 17);
+    border-radius: 5px;
+    text-align: center;
+}
+nav ul li:hover {
+    background-color: rgb(183, 249, 227);
+    box-shadow: 10px 10px 10px blueviolet;
+    border: 2px 2px solid rgb(143, 17, 17);
+}
+nav ul a:link {
+    color: black;
+}
+nav ul a:visited {
+    color: black;
+}
+nav ul .icon{
+    width: 4rem;
+    vertical-align: middle;
+    margin: 1rem 0.5rem 1rem 0.4rem
+}
+nav ul .icon2 {
+    width: 6rem;
+    margin-left: -0.9rem;
+    vertical-align: middle;
+}
+nav ul .icon3 {
+    vertical-align: middle;
+    width: 7rem;
+    margin: -1.6rem 0 -1.6rem 0.1rem;
+}
