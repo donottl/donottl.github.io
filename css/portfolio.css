@@ -95,6 +95,10 @@ ul li:hover {
     box-shadow: 10px 10px 10px blueviolet;
     border: 2px 2px solid rgb(143, 17, 17);
 }
+.formulary:hover {
+    background-color: rgb(255, 252, 249);
+    border: 2px 2px solid rgb(143, 17, 17);
+}
 ul a {
     border: 1px dotted blue;
 }
